@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-https://www.4rsmokehouse.com/
+//https://www.4rsmokehouse.com/
 import "./Navbar.css";
 
 import Logo from "./Logo";
