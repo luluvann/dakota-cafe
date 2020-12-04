@@ -1,8 +1,49 @@
-div {
-  text-align: center;
+body {
+  font-family: "Open Sans Condensed", sans-serif;
 }
 
-.body {
-  background-color: black;
-  opacity: 0.8;
+.contain {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.overlay {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  background: rgba(0, 0, 0, 0.3); /* Black see-through */
+  color: white;
+  width: 100%;
+  transition: 0.5s ease;
+  opacity: 1;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  padding-top:15%;
+  padding-right: 10%;
+  padding-left: 10%;
+}
+
+.button {
+  position: absolute;
+  width: 100px;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.5rem;
+  color: Black;
+}
+
+@media screen and (max-width: 960px) {
+.overlay{
+  font-size: 1rem;
+}
+.button{
+  top:60%;
+}
 }

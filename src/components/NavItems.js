@@ -1,16 +1,16 @@
 const MenuItems = [
   {
-    title: "LE RESTAURANT",
-    url: "#",
+    title: "Le Restaurant",
+    url: "#section1",
     cName: "nav-links",
   },
   {
-    title: "L'ÉQUIPE",
-    url: "#",
+    title: "L'Équipe",
+    url: "#section2",
     cName: "nav-links",
   },
   {
-    title: "LE MENU",
+    title: "Le Menu",
     url: "#",
     cName: "nav-links",
   },
