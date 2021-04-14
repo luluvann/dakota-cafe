@@ -1,41 +1,44 @@
-footer{
+footer {
   display: block;
   background-color: #f06220;
-
 }
 
-.container-fluid{
+.container-fluid {
   text-align: center;
 }
 
-.row{
+.row {
   justify-content: space-around;
   align-items: baseline;
   padding: 20px;
 }
 
-.row-items{
-  margin:5px
+.row-items {
+  margin: 5px;
 }
 
-.socialMedias{
+.socialMedias {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: center;
 }
 
-.socialMedias a{
+.socialMedias a {
   margin: 0 5px;
   font-size: 30px;
 }
 
-h5{
+.socialMedias a:hover {
+  color: white;
+}
+
+h5 {
   font-weight: bold;
 }
 
-h6{
-  color:black;
+h6 {
+  color: black;
 }
 
 a {

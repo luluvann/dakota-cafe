@@ -1,0 +1,15 @@
+.carte-container{
+   min-height:100vh;
+   display: flex;
+   justify-content: center;
+   padding: 50px;
+   background-color: black;
+}
+
+.carte-container h6{
+    color: white;
+}
+
+td{
+    color: white;
+}

@@ -11,7 +11,7 @@ const MenuItems = [
   },
   {
     title: "Contactez-Nous",
-    url: "#",
+    url: "#contact",
     cName: "nav-links",
   },
 ];

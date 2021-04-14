@@ -3,11 +3,11 @@ import "./Footer.css";
 
 function Footer() {
   return (
-    <footer>
+    <footer id="contact">
       <div className="container-fluid">
         <div className="row">
           <div className="row-items">
-            <h5>Suivez-nous</h5>
+            <h5>Retrouvez-nous</h5>
             <div className="socialMedias">
               <a
                 className="fab fa-facebook"
