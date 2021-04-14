@@ -28,6 +28,7 @@ body {
   padding-top:15%;
   padding-right: 10%;
   padding-left: 10%;
+  padding-bottom: 15%;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -37,7 +38,7 @@ body {
 
 .button {
   position: relative;
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: Black;
   padding: 15px;
   margin: 50px;
@@ -45,4 +46,10 @@ body {
 
 @media screen and (max-width: 960px) {
 
+  .overlay h3{
+    font-size: 0.8em;
+  }
+  .button{
+    margin: 20px;
+  }
 }
