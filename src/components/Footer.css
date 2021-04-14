@@ -1,5 +1,5 @@
 footer{
-  height:20%;
+  display: block;
   background-color: #f06220;
 
 }
@@ -16,6 +16,18 @@ footer{
 
 .row-items{
   margin:5px
+}
+
+.socialMedias{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.socialMedias a{
+  margin: 0 5px;
+  font-size: 30px;
 }
 
 h5{

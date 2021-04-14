@@ -5,12 +5,12 @@ const MenuItems = [
     cName: "nav-links",
   },
   {
-    title: "L'Équipe",
+    title: "Notre Carte",
     url: "#section2",
     cName: "nav-links",
   },
   {
-    title: "Le Menu",
+    title: "Contactez-Nous",
     url: "#",
     cName: "nav-links",
   },
