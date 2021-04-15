@@ -4,12 +4,16 @@
    justify-content: center;
    padding: 50px;
    background-color: black;
+   flex-direction: row;
+   flex-wrap: wrap;
 }
 
 .carte-container h6{
     color: white;
 }
 
-td{
-    color: white;
+.carte-container img{
+    width: 100px;
+    height: 100px;
+    margin: 2px;
 }

@@ -13,7 +13,7 @@ function App() {
     <div>
       <Navbar />
       <Body />
-
+      <Carte />
       <Footer />
     </div>
   );
